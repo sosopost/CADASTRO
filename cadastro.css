@@ -1,0 +1,33 @@
+h1 {
+    color: darkorange;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 121);
+}
+
+.card-cadastro {
+    margin-left: 550px;
+    display: flex;
+    align-items: center;
+}
+
+input, button {
+    width: 200px;
+    height: 60px;
+    background-color: gold;
+    border: solid 2px darkorange;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+    font-size: medium;
+}
+
+input, button:hover {
+    background-color: lightcoral;
+    border: 2px solid darkorange;
+    color: white;
+}
